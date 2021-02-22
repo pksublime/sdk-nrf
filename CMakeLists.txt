@@ -12,6 +12,8 @@ include(cmake/version.cmake)
 include(cmake/multi_image.cmake)
 include(cmake/reports.cmake)
 
+project(PatrickPractical)
+
 zephyr_include_directories(include)
 
 add_subdirectory(ext)
